@@ -1,0 +1,193 @@
+/* Container code starts from here */
+.container{
+    margin: 0 auto;
+}
+
+/*section 1 code starts from here */
+#section1{
+   display: flex;
+}
+#header{
+   width: 100%;
+   height:10vh;
+   background-color: #EDDFE0;
+   display:flex;
+   text-align: center;
+   display: flex;
+   align-items: center; 
+   justify-content:center;
+   position: relative;
+
+}
+#headerlogo {
+   position: absolute;
+   left: 0; 
+   max-width: 50px; 
+   height: auto;
+}
+#s1h1{
+   color: #001F3F;
+   font-family: monospace;
+   font-size: 3rem;
+
+}
+
+/* section 1 code end here */ 
+
+/* section 2 code starts from here */
+#section2{
+   margin-top:0.5rem;
+   display: flex;
+   gap:2rem;
+   justify-content: space-between;
+   height: 50vh;
+   width: 100%;
+   background-color: #C4D7FF;
+}
+
+#img-container{
+   height: 80vh;
+   width: 40%;
+   border:dotted solid black;
+   background-image: url(tankbund.jpg);
+   background-size: contain;
+   
+}
+#content-container{
+   height: 50vh;
+   width:50%;
+   border:dotted solid black;
+   background-color:#EDE8DC;
+   align-content: center;
+   font-size: 1rem;
+}
+
+/* section 2 code ends from here */
+
+
+/* section 3 code starts from here */
+
+#section3{
+   margin-top:0.5rem;
+   display: flex;
+   gap:0.5rem;
+   justify-content: space-between;
+   height: 50vh;
+   width: 100%;
+   background-color: #FFD7C4;
+
+}
+#transport{
+   height: 50vh;
+   width:45%;
+   border:dotted solid black;
+   background-color:#EDE8DC;
+
+}
+
+#famous{
+   height: 50vh;
+   width:45%;
+   border:dotted solid black;
+   background-color:#EDE8DC;
+}
+
+
+/* section 3 code ends here */
+
+
+/* section4 code starts from here */
+#section4{
+   margin-top: 0.5rem;
+}
+#gallary{
+   
+   display: flex;
+   width: 100%;
+   height: 50vh;
+   background-color: #A594F9;
+}
+/* section4 code ends here */
+
+/* section5 code starts from here */
+#section5{
+   margin-top: 0.5rem;
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+}
+#loc{
+   height: 50vh;
+   width: 45%;
+   background-color:red;
+}
+
+#contact{
+   height: 50vh;
+   width: 45%;
+   background-color: gray;
+}
+
+/* section5 code ends here */
+
+/* Responsive styles for smartphones */
+@media (max-width: 768px) {
+   /* Adjust sections for smaller screens */
+   #section1 {
+       flex-direction: column;
+       text-align: center;
+   }
+
+   #headerlogo {
+       position: relative;
+       max-width: 40px;
+   }
+
+   #s1h1 {
+       font-size: 18px;
+   }
+
+   /* Stack section 2 elements */
+   #section2 {
+       flex-direction: column;
+       align-items: center;
+       height: auto;
+   }
+
+   #img-container, #content-container {
+       width: 90%;
+       margin-bottom: 1rem;
+   }
+
+   /* Stack section 3 elements */
+   #section3 {
+       flex-direction: column;
+       align-items: center;
+       height: auto;
+   }
+
+   #transport, #famous {
+       width: 90%;
+       margin-bottom: 1rem;
+   }
+
+   /* Adjust gallery for mobile */
+   #gallary {
+       flex-direction: column;
+       height: auto;
+       width: 100%;
+   }
+
+   /* Stack section 5 elements */
+   #section5 {
+       flex-direction: column;
+       align-items: center;
+       height: auto;
+   }
+
+   #loc, #contact {
+       width: 100%;
+       margin-bottom: 1rem;
+   }
+}
+/* Container code ends here */
