@@ -5,17 +5,18 @@ body{
 .head{
     width: 100vw;
     height: 15vh;
-    border: 1px dashed black;
     display: flex;
     align-items: center;
     /* justify-content: space-around; */
     padding-left: 2rem;
 }
 #logo-container{
-    border: 1px dashed black;
     width: 100px;
     height: 100px;
     display: inline-block;
+}
+#logo-container img{
+    border-radius: 50%;
 }
 #heading-content{
     width: 92%;
@@ -26,7 +27,6 @@ body{
 .content{
     width: 100vw;
     height: 100vh;
-    border: 1px dashed black;
     display: flex;
     align-items: center;
     background-color: black;
@@ -34,20 +34,19 @@ body{
 #content-container-1{
     width: 30%;
     height: inherit;
-    border: 1px dashed white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 1REM 0;
 }
 #content-container-1 img{
     width: 25rem;
     height: 25rem;
-    border: 1px dashed white;
+    border-radius: 10px;
 }
 #content-container-2{
     width: 70%;
     height: inherit;
-    border: 1px dashed white;
     color: white;
     display: flex;  
     align-items: center;
@@ -256,5 +255,9 @@ body{
     #submit-btn{
         width: 5rem;
         font: 0.9rem;
+    }
+    #content-container-1 img{
+        height: 15rem;
+        width: 15rem;
     }
 }
