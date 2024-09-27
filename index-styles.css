@@ -9,6 +9,8 @@ body{
     align-items: center;
     /* justify-content: space-around; */
     padding-left: 2rem;
+    background-color: blueviolet;
+    color: white;
 }
 #logo-container{
     width: 100px;
@@ -73,7 +75,7 @@ body{
     color: white;
 }
 #slider-holder h1{
-    color: black;
+    color: blueviolet;;
 }
 #slide-item-1,#slide-item-2,#slide-item-3,#slide-item-4,#slide-item-5{
     height: 80vh;
